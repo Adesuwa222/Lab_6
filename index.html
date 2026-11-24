@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Web in Real Time</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>The Web in Real Time</h1>
+  <p class="intro">This page asks a weather service what the weather is right now. Pick a city and the page changes to match.</p>
+
+  <div class="buttons">
+    <button id="brampton-button">Brampton</button>
+    <button id="toronto-button">Toronto</button>
+    <button id="refresh-button">Refresh</button>
+  </div>
+
+  <h2 id="city-name">Brampton</h2>
+  <p id="temperature">--</p>
+  <p id="description">Loading the weather...</p>
+  <p id="message"></p>
+
+  <img id="weather-image" src="images/clear.jpg" alt="A picture that matches the weather">
+
+  <p id="details"></p>
+  <p id="updated"></p>
+  <p id="error"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
